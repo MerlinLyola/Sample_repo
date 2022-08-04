@@ -1,4 +1,4 @@
-
-print('Hi')
-print('Welcome to Github')
-print('Learning github')
+def m1():
+  print('Hi')
+  print('Welcome to Github')
+  print('Learning github')
