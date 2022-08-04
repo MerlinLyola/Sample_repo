@@ -8,6 +8,14 @@ class Demo:
   @staticmethod
   def m2():
     print('This is static method')
+    
+  def opening _chrome(self):
+    s=Service(executable_path="C:\\Users\\PC\\Desktop\\Selenium Driver files\\chromedriver.exe")
+    self.driver=webdriver.Chrome(service=s)
+    self.driver.get("http://www.fb.com")
+    self.driver.minimize_window()
+    self.driver.maximize_window()
+    self.driver.close()
 
 d=Demo()
 d.m1()
