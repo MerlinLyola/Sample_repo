@@ -4,3 +4,11 @@ class Demo:
     print('Hi')
     print('Welcome to Github')
     print('Learning github')
+    
+  @staticmethod
+  def m2():
+    print('This is static method')
+
+d=Demo()
+d.m1()
+m2()
