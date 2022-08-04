@@ -1,4 +1,6 @@
-def m1():
-  print('Hi')
-  print('Welcome to Github')
-  print('Learning github')
+class Demo:
+
+  def m1():
+    print('Hi')
+    print('Welcome to Github')
+    print('Learning github')
