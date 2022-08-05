@@ -16,6 +16,15 @@ class Demo:
     self.driver.minimize_window()
     self.driver.maximize_window()
     self.driver.close()
+    
+   def opening _firefox(self):
+    s=Service(executable_path="C:\\Users\\PC\\Desktop\\Selenium Driver files\\chromedriver.exe")
+    self.driver=webdriver.Firefox(service=s)
+    self.driver.get("http://www.google.com")
+    self.driver.minimize_window()
+    self.driver.maximize_window()
+    self.driver.close()
+
 
 d=Demo()
 d.m1()
